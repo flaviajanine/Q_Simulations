@@ -12,25 +12,34 @@ A couple of links bellow about the libraries being used:
 * [qiskit-tutorials](https://github.com/Qiskit/qiskit-tutorials) and
 * [qiskit-tutorials-community](https://github.com/Qiskit/qiskit-tutorials-sommunity) GitHub Repositories.
 
+## API KEY:
+API_TOKEN
+You'll need to have an API key for the [IBM Quantum Experience](https://quantum-computing.ibm.com/), and then export it as a environment variable.
+```bash
+$ export API_TOKEN=<your-api-token>
+```
 #
-
-### Dependencies:
+## Dependencies:
 
 ###### Obs: If you already have this dependence, you can jump to *Running locally*
 
 * The dependencies can be installed once you have set up the Python environment. Highly recomended the usage of virtualenvs for it. 
 * To activate the virtualenv just run:
-```
+```bash
 $ source <name_of_the_virtualenv>/bin/activate
 ```
 * Then, install all the dependencies by running:
-```
+```bash
 $ pip install -r requirements.txt
 ```
-
+This notebook can also be downloaded as PDF for report purposes, to install the dependencies needed for that, run:
+```bash
+$ chmod +x install.sh
+$ source install.sh
+``` 
 #
 
-### Running locally
+## Running locally
 
 To be able to run and edit the code, go to the root folder project and run:
 ```
